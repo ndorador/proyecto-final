@@ -1,0 +1,8 @@
+// style es el archivos raiz y debe tener solo los import.
+@import 'layout/header';
+// import archivos que quiero unir
+@import 'base/reset';
+@import 'base/fonts';
+@import 'layout/main';
+@import 'layout/body';
+@import 'layout/mobile';

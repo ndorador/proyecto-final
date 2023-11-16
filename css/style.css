@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* Estilos generales */
+.container {
+  margin-top: 20px;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+  padding: 20px 0;
+}
+
+.navbar-brand img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sidebar {
+  width: 250px;
+}
+
+.offcanvas-body {
+  padding: 15px;
+}
+
+/* Estilos del menú de navegación */
+.navbar-nav {
+  margin-top: 20px;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #000;
+}
+
+/* Estilos del menú desplegable */
+.dropdown-menu {
+  background-color: rgba(247, 113, 24, 0.862745098);
+}
+
+.dropdown-menu a {
+  color: #080808;
+}
+
+.dropdown-menu a:hover {
+  color: #f75317;
+  background-color: #e9ecef;
+}
+
+/* Estilos para la página de inicio activa */
+.nav-link.active {
+  font-weight: bold;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+/* Estilo para las flechas del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #333; /* Cambia el color según tu preferencia */
+}
+
+/* Estilo para el botón previo del carrusel */
+.carousel-control-prev {
+  color: #fffcfc; /* Cambia el color según tu preferencia */
+}
+
+/* Estilo para el botón siguiente del carrusel */
+.carousel-control-next {
+  color: #fffcfc; /* Cambia el color según tu preferencia */
+}
+
+.section-separator {
+  border-bottom: 1px solid #dee2e6; /* Color del borde inferior */
+  padding-bottom: 20px; /* Espaciado opcional debajo del separador */
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 3em;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  transition: transform 0.5s;
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
