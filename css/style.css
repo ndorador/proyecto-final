@@ -45,7 +45,7 @@
 }
 
 .dropdown-menu a:hover {
-  color: #f75317;
+  color: rgba(247, 113, 24, 0.862745098);
   background-color: #e9ecef;
 }
 
@@ -66,25 +66,23 @@ body {
   font-family: "Arial", sans-serif;
 }
 
-/* Estilo para las flechas del carrusel */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: #333; /* Cambia el color según tu preferencia */
+#logoCarousel {
+  overflow: hidden;
 }
 
-/* Estilo para el botón previo del carrusel */
-.carousel-control-prev {
-  color: #fffcfc; /* Cambia el color según tu preferencia */
+.carousel-inner {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
-/* Estilo para el botón siguiente del carrusel */
-.carousel-control-next {
-  color: #fffcfc; /* Cambia el color según tu preferencia */
+.carousel-item {
+  flex: 0 0 auto;
 }
 
-.section-separator {
-  border-bottom: 1px solid #dee2e6; /* Color del borde inferior */
-  padding-bottom: 20px; /* Espaciado opcional debajo del separador */
+.logo {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
 body {
