@@ -9,3 +9,10 @@ body {
 .card{
     transition: transform .5s;
 }
+
+.h3:hover{
+    transform: scale(1.1);
+}
+.h3{
+    transform: scale(1.1);
+}
